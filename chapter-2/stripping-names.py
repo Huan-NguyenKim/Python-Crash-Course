@@ -7,4 +7,14 @@
 #rstrip(), and strip().
 
 name = "\tHuan Nguyen\n"
+print("\nNot using any methods")
 print(name)
+
+print("\nUsing the lstrip method")
+print(name.lstrip())
+
+print("\nUsing the rstrip method")
+print(name.rstrip())
+
+print("\nUsing the strip method")
+print(name.strip())
