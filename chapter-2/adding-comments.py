@@ -3,3 +3,6 @@
 # because your programs are too simple at this point, just add your name and
 # the current date at the top of each program file. Then write one sentence
 # describing what the program does.
+
+
+print("If you want to make a comment, use the symbol '#' ")
