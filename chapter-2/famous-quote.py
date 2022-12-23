@@ -4,3 +4,6 @@
 
 #Albert Einstein once said, “A person who never made a
 #mistake never tried anything new.”
+
+print("President John F. Kennedy said,")
+print('"Ask not what your country can do for you. Ask what you can do for your country!"')
