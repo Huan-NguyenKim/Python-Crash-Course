@@ -5,3 +5,14 @@
 # print(5+3)
 
 # Your output should simply be four lines with the number 8 appearing once on each line.
+print("\nThe Addition is")
+print(6+2)
+
+print("\nThe subtraction is:")
+print(10-2)
+
+print("\nThe multiplication is:")
+print(8*1)
+
+print("\nThe division is:")
+print(24/3 )
