@@ -24,5 +24,23 @@ print("\nAdding French to the end of the list. The list of languages now contain
 
 #Inserting Elements into a List
 languages.insert(1,"Japanese")
-print("\nInstering",languages[1], "to the 2nd position of the list")
+print("\nInstering",languages[1], "to the 2nd position of the list.")
 print("The list now has",languages) 
+
+#Removing an Item Using the del Statement
+del languages[2]
+print("\nRemoving the 3rd language, which is Cantonese.")
+print("The list now has",languages)
+
+#Removing an Item Using the pop() Method. This is to remove the last item in the list
+popped_language = languages.pop()
+print("\nThe popped item is",popped_language)
+print("The new list after using the pop() method is", languages)
+
+
+# Popping Items from any Position in a List
+another_popped_language = languages.pop(0)
+print("\nAnother popped language is",another_popped_language)
+print("The language list now has",languages)
+
+#Removing an Item by Value
