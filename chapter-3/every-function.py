@@ -58,3 +58,12 @@ print("\nThe original list is still", languages)
 languages.sort()
 print("\nThe list is now permanently sorted, which include", languages)
 
+#Printing a List in Reverse Order
+languages.reverse()
+print("\nThe reverse order is ",languages)
+
+
+#Finding the Length of a List
+list_length = len(languages)
+print("The length of the list is", list_length)
+
