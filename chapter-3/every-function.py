@@ -47,3 +47,14 @@ print("The language list now has",languages)
 languages.remove("Mandarin")
 print("\nRemoving Mandarin from the list")
 print("The list now is",languages)
+
+#Sorting a List Temporarily with the sorted() Function
+print("\nThe temporary sorted list of language is",sorted(languages))
+
+#Printing the original list
+print("\nThe original list is still", languages)
+
+#Sorting a List Permanently with the sort() Method
+languages.sort()
+print("\nThe list is now permanently sorted, which include", languages)
+
