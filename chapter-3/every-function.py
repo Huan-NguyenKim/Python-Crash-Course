@@ -43,4 +43,7 @@ another_popped_language = languages.pop(0)
 print("\nAnother popped language is",another_popped_language)
 print("The language list now has",languages)
 
-#Removing an Item by Value
+#Removing an Item by Value. This means removing an item by its name even though we don't know its position.
+languages.remove("Mandarin")
+print("\nRemoving Mandarin from the list")
+print("The list now is",languages)
