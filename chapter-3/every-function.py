@@ -63,7 +63,7 @@ languages.reverse()
 print("\nThe reverse order is ",languages)
 
 
-#Finding the Length of a List
+#Finding the Length of the list
 list_length = len(languages)
 print("The length of the list is", list_length)
 
