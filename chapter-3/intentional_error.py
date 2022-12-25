@@ -4,4 +4,6 @@
 # Make sure you correct the error before closing the program.
 
 list = ["hi", "hello","greetings","ni hao"]
-print(list[10])
+#print("Showing an index error", list[10])
+
+print("Showing the correct list", list)
