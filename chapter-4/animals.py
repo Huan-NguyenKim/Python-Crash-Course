@@ -14,4 +14,10 @@
 
 pets = ['dog','cat','bird']
 for pet in pets:
-    print(pet)
+    print("\n", pet)
+
+
+#   •	 Modify your program to print a statement about each animal, such as
+# A dog would make a great pet.
+
+    print(f"\n{pet.title()} would be a great pet")
