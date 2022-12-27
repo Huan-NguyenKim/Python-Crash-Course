@@ -23,7 +23,7 @@ for pet in pets:
     print(f"\n{pet.title()} would be a great pet")
 
 
-#   •	 Add a line at the end of your program stating what these animals have in
+#   •	 Add a line at the end of your program stating what these animals have inn
 # common. You could print a sentence such as Any of these animals would
 # make a great pet!
 print(f"\nMany people love {pet.title()}")
