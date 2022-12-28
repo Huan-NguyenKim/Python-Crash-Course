@@ -3,8 +3,8 @@
 # is, the cube of each integer from 1 through 10), and use a for loop to print out
 # the value of each cube.
 
-cubes = []
-for value in range(1,11):
-    cube_value = value**3
-    cubes.append(cube_value)
-print(cubes) 
+cubes = []                           # initializing cubes
+for value in range(1,11):            # range from 1 to 11. The program will use all numbers from 1 to 10
+    cube_value = value**3            # cube is **3 (ex 1^3)
+    cubes.append(cube_value)         # add all cube values to the list "cubes"
+print(cubes)                         # print output
