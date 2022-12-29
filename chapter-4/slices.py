@@ -12,7 +12,7 @@
 # Slices: Using one of the programs you wrote in this chapter, add several
 # lines to the end of the program that do the following:
 
-countries = ['usa','france','vietnam','china','canada','uk']
+countries = ['usa','france','vietnam','china','canada','uk','germany','brazil','australia']
 
 
 #   •	 Print the message The first three items in the list are:. Then use a slice to
@@ -27,3 +27,7 @@ for country1 in countries[:3]:
 print("\nThe next 3 countries are:")
 for country2 in countries[3:6]:
     print(country2.title())
+
+
+#   •	 Print the message The last three items in the list are:. Use a slice to print the
+# last three items in the list.
