@@ -53,3 +53,8 @@ friend_pizzas.append("new pizza")
 print("\nThe original list now has 4 items. They are:")
 for pizza in pizzas[:]:
     print(pizza.title())
+
+
+print("\nThe friend_pizzas list now has 4 items too. They are:")
+for friend_pizza in friend_pizzas[:]:
+    print(friend_pizza.title())
