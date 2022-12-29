@@ -38,9 +38,7 @@ print("Friend_pizzas is a copied list of the pizzas list. It contains",friend_pi
 
 #   •	 Add a new pizza to the original list.
 pizzas.append("pizza4")
-print("\nThe new list now has 4 pizzas. They are:")
-for pizza in pizzas[:]:
-    print(pizza.title())
+
 
 
 #   •	 Add a different pizza to the list friend_pizzas.
