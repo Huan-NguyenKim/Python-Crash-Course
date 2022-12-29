@@ -41,3 +41,12 @@ pizzas.append("pizza4")
 print("\nThe new list now has 4 pizzas. They are:")
 for pizza in pizzas[:]:
     print(pizza.title())
+
+
+#   •	 Add a different pizza to the list friend_pizzas.
+friend_pizzas.append("new pizza")
+
+#   •	 Prove that you have two separate lists. Print the message My favorite
+# pizzas are:, and then use a for loop to print the first list. Print the message
+# My friend’s favorite pizzas are:, and then use a for loop to print the second list. 
+# Make sure each new pizza is stored in the appropriate list.
