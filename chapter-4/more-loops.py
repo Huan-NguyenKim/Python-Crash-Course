@@ -19,8 +19,8 @@ print(friend_foods)
 
 '''
 
-my_foods = ['pizza', 'falafel', 'carrot cake']
-print("My favorite foods are:")
+my_foods = ['pizza', 'falafel', 'carrot cake']      #Creating a list
+print("My favorite foods are:")                     # use for loop to print a message.
 for my_food in my_foods[:]:
     print(my_food.title())
 
@@ -28,4 +28,6 @@ for my_food in my_foods[:]:
 
 
 friend_foods = my_foods[:]
-
+print("\nMy friend favorite foods are:")
+for friend_food in friend_foods[:]:
+    print(friend_food.title())
