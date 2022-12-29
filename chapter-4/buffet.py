@@ -9,3 +9,13 @@ foods. Add a line that rewrites the tuple, and then use a for loop to print
 each of the items on the revised menu.
 
 '''
+
+# Buffet: A buffet-style restaurant offers only five basic foods. Think of five
+# simple foods, and store them in a tuple.
+
+foods = ('lobster', 'sushi','salad', 'soup')
+
+#  Use a for loop to print each food the restaurant offers.
+print("The buffet has 4 special foods. They are:")
+for food in foods:
+    print(food.title())
