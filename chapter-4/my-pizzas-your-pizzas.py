@@ -33,7 +33,7 @@ print("\nI love all kinds of pizzas")
 
 # Make a copy of the list of pizzas, and call it friend_pizzas.
 friend_pizzas = pizzas[:]
-print("Friend_pizzas is a copied list of the pizzas list. It contains",friend_pizzas)
+print("\nFriend_pizzas is a copied list of the pizzas list. It contains",friend_pizzas)
 
 
 #   •	 Add a new pizza to the original list.
@@ -48,3 +48,8 @@ friend_pizzas.append("new pizza")
 # pizzas are:, and then use a for loop to print the first list. Print the message
 # My friend’s favorite pizzas are:, and then use a for loop to print the second list. 
 # Make sure each new pizza is stored in the appropriate list.
+
+
+print("\nThe original list now has 4 items. They are:")
+for pizza in pizzas[:]:
+    print(pizza.title())
