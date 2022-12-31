@@ -18,10 +18,20 @@ another five tests evaluate to False.
 
 '''
 
-#1
+#1 cities
 city = 'san francisco'
 print("Is the city 'San Francsico'?")
 print(city=='san francisco')
 
 print("Is the city 'New York'?")
 print(city=='new york')
+
+
+#countries
+country = "usa"
+print("\nIs the country 'usa'?")
+print(country =='usa')
+
+print("Is the country 'vietnam'?")
+print(country=='vietnam')
+
