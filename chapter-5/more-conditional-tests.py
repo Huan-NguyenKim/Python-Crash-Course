@@ -36,16 +36,29 @@ else:
 
 
 #   2•	 Tests using the lower() method
-name = "HUAN"
+first_name = "HUAN"
 print("\nDid i type 'HUAN'? ")
-print(name == "HUAN")
+print(first_name == "HUAN")
 
 print("Did i type 'huan'?")
-print(name.lower()=="HUAN")
+print(first_name.lower()=="HUAN")
 
 
-#   3•	 Numerical tests involving equality and inequality, greater than and
+print(first_name.upper())
+
+#   3.  Using upper() method
+last_name = "NGUYEN"
+print("\nDid i type 'nguyen'?")
+print(last_name =="nguyen")
+
+print("\nDid i enter 'NGUYEN'?")
+print(last_name.upper() =="NGUYEN")
+
+
+
+
+#   4•	 Numerical tests involving equality and inequality, greater than and
 # less than, greater than or equal to, and less than or equal to
-#   4•	 Tests using the and keyword and the or keyword
-#   5•	 Test whether an item is in a list
-#   6• 	 Test whether an item is not in a list
+#   5•	 Tests using the and keyword and the or keyword
+#   6•	 Test whether an item is in a list
+#   7• 	 Test whether an item is not in a list
