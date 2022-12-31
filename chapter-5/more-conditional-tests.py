@@ -116,6 +116,18 @@ if theft_value <= 950:
 else:
     print("If the value is more than 950 dollars, he/she will be charged with a felony offense.")
 
-#   5•	 Tests using the and keyword and the or keyword
-#   6•	 Test whether an item is in a list
-#   7• 	 Test whether an item is not in a list
+print("\n")
+
+
+#   5•	 Tests using the "and" keyword 
+driver_age = 26
+if driver_age >21 and driver_age> 25:
+    print("You can drive a car and you can get a discount for your insurance because you are older than 25")
+else:
+    print("You can drive but have to pay an expensive insurance.")
+
+
+
+#   6.   Tests using the "or" keyword
+#   7•	 Test whether an item is in a list
+#   8• 	 Test whether an item is not in a list
