@@ -36,7 +36,7 @@ print(country =='usa')
 print("Is the country 'vietnam'?")
 print(country=='vietnam')
 
-#3 languages (also lower case and upper case)
+#3 languages (also using upper case to compare to the original lower case.)
 language = "english"
 print("\nIs the language 'english'?")
 print(language == "english")
@@ -46,3 +46,12 @@ print(language =="vietnamese")
 
 print("The language is english but the return result will be false because using ENGLISH to test.")
 print(language =="ENGLISH")
+
+
+#4 holidays (also using lower case to compare to the original upper case.)
+holiday = "NEW YEAR"
+print("\nIs the holiday 'NEW YEAR' (upper case)?")
+print(holiday == "NEW YEAR")
+
+print("Is the holiday 'new year' (lower case)?")
+print(holiday == "new year")
