@@ -55,3 +55,12 @@ print(holiday == "NEW YEAR")
 
 print("Is the holiday 'new year' (lower case)?")
 print(holiday == "new year")
+
+
+#5 currencies (also checking whether or not 'space' would make a difference)
+currency1 = "usd"
+print("\nIs the currency 'usd'?")
+print(currency1 == "usd")
+
+print("Is the currency still 'usd' (u s d)?")
+print(currency1 == "u s d")
