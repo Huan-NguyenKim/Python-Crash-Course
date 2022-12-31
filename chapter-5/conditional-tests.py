@@ -57,10 +57,19 @@ print("Is the holiday 'new year' (lower case)?")
 print(holiday == "new year")
 
 
-#5 currencies (also checking whether or not 'space' would make a difference)
+#5 currencies (also checking whether or not 'space' (from no space to space) would make a difference)
 currency1 = "usd"
 print("\nIs the currency 'usd'?")
 print(currency1 == "usd")
 
 print("Is the currency still 'usd' (u s d)?")
 print(currency1 == "u s d")
+
+
+#6 similar to #5 but checking from "space to no space"
+currency2 = "u s d"
+print("\nIs the currency 'u s d' (space)?")
+print(currency2 == "u s d")
+
+print("Is the currency 'usd' (no space)?")
+print(currency2 == "usd")
