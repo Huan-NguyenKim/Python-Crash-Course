@@ -16,9 +16,9 @@ less than, greater than or equal to, and less than or equal to
 #   1•	 Tests for equality and inequality with strings
 #a/ equality
 
-mobile_phone = 'samsung'
+mobile_phone = "samsung"
 print("Samsung has a new model right now. Do you want to buy one? (checking for equality)")
-if mobile_phone == 'samsung':
+if mobile_phone == "samsung":
     print("I love Samsung phones. I will buy one")
 else:
     print("I don't want to buy other phones.")
@@ -27,15 +27,23 @@ print("\n")
 
 
 #b/ inequality
-favorite_food = 'noodles'
+favorite_food = "noodles"
 print("Are you hungry? But we don't have noodles right now (checking for inequality)")
-if favorite_food != 'noodles':
+if favorite_food != "noodles":
     print("I don't want to eat right now.")
 else:
     print("I will wait for noodles later.")
 
 
 #   2•	 Tests using the lower() method
+name = "HUAN"
+print("\nDid i type 'HUAN'? ")
+print(name == "HUAN")
+
+print("Did i type 'huan'?")
+print(name.lower()=="HUAN")
+
+
 #   3•	 Numerical tests involving equality and inequality, greater than and
 # less than, greater than or equal to, and less than or equal to
 #   4•	 Tests using the and keyword and the or keyword
