@@ -142,4 +142,11 @@ print("\n")
 
 
 #   7•	 Test whether an item is in a list
+traditional_dishes = ["rice","noodles","cake"]
+dish = "rice"
+if dish in traditional_dishes:
+    print("Rice is a traditional dish.")
+else:
+    print("Sorry.")
+
 #   8• 	 Test whether an item is not in a list
