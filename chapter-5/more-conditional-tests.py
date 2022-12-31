@@ -59,6 +59,49 @@ print(last_name.upper() =="NGUYEN")
 
 #   4•	 Numerical tests involving equality and inequality, greater than and
 # less than, greater than or equal to, and less than or equal to
+
+# equality
+number = 1
+if number == 1:
+    print("\nIf the number is 1, return TRUE")
+else:
+    print("Otherwise, return FALSE")
+
+print("\n")
+
+# inequality
+year = 365
+if year != 365:
+    print("\nA year should have 365 days. You entered a wrong number. Please try again!")
+else:
+    print("You entered a correct number. A year has 365 days.")
+
+print("\n")
+
+# greater than
+age = 22
+if age > 21:
+    print("Your age is greater than 21. You can drive a car now.")
+else:
+    print("Sorry you are not 21 yet! You can't drive.")
+
+print("\n")
+
+
+
+# less than
+deposit = 500
+if deposit < 10000:
+    print("You don't have to report to IRS if you deposit less than 10,000 USD.")
+else:
+    print("If you deposit more than 10,000 USD, you will have to file form 8300 to the IRS")
+
+
+
+# greater than or equal to
+# less than or equal to
+
+
 #   5•	 Tests using the and keyword and the or keyword
 #   6•	 Test whether an item is in a list
 #   7• 	 Test whether an item is not in a list
