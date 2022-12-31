@@ -17,3 +17,11 @@ evaluates to True or False.
 another five tests evaluate to False.
 
 '''
+
+#1
+city = 'san francisco'
+print("Is the city 'San Francsico'?")
+print(city=='san francisco')
+
+print("Is the city 'New York'?")
+print(city=='new york')
