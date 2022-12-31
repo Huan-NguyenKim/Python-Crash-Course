@@ -127,7 +127,19 @@ else:
     print("You can drive but have to pay an expensive insurance.")
 
 
+print("\n")
+
+
 
 #   6.   Tests using the "or" keyword
+meal_price = 14
+if meal_price <= 10 or meal_price <= 15:
+    print("The meal price is reasonable")
+else:
+    print("Sorry! The meal price is too expensive")
+
+print("\n")
+
+
 #   7•	 Test whether an item is in a list
 #   8• 	 Test whether an item is not in a list
