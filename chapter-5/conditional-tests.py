@@ -18,6 +18,7 @@ another five tests evaluate to False.
 
 '''
 
+# " " and ' ' are similar.
 #1 cities
 city = 'san francisco'
 print("Is the city 'San Francsico'?")
@@ -27,7 +28,7 @@ print("Is the city 'New York'?")
 print(city=='new york')
 
 
-#countries
+#2 countries
 country = "usa"
 print("\nIs the country 'usa'?")
 print(country =='usa')
@@ -35,3 +36,13 @@ print(country =='usa')
 print("Is the country 'vietnam'?")
 print(country=='vietnam')
 
+#3 languages (also lower case and upper case)
+language = "english"
+print("\nIs the language 'english'?")
+print(language == "english")
+
+print("Is the language 'vietnamese'?")
+print(language =="vietnamese")
+
+print("The language is english but the return result will be false because using ENGLISH to test.")
+print(language =="ENGLISH")
