@@ -96,11 +96,25 @@ if deposit < 10000:
 else:
     print("If you deposit more than 10,000 USD, you will have to file form 8300 to the IRS")
 
+print("\n")
 
 
 # greater than or equal to
-# less than or equal to
+college_unit = 12
+if college_unit >= 12:
+    print("You are considered a full time student if you have 12 or greater(more) units in a semester.")
+else:
+    print("You are not a full time student")  
 
+print("\n")
+
+
+# less than or equal to
+theft_value = 950
+if theft_value <= 950:
+    print("If someone steals less than or equal to 950 dollars, he/she will be charged with a misdemeanor offense.")
+else:
+    print("If the value is more than 950 dollars, he/she will be charged with a felony offense.")
 
 #   5•	 Tests using the and keyword and the or keyword
 #   6•	 Test whether an item is in a list
