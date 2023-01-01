@@ -141,7 +141,7 @@ else:
 print("\n")
 
 
-#   7•	 Test whether an item is in a list
+#   7•	 Test whether an item is in a list.
 traditional_dishes = ["rice","noodles","cake"]
 dish1 = "rice"
 if dish1 in traditional_dishes:

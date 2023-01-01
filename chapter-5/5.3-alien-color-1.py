@@ -8,3 +8,17 @@ a message that the player just earned 5 points.
 fails. (The version that fails will have no output.
 
 '''
+
+# Write an if statement to test whether the alien’s color is green. If it is, print
+# a message that the player just earned 5 points.
+alien_color1 = "green"
+if alien_color1 == "green":
+    print("You have just earned 5 points!")
+else:
+    print("So sorry!")
+
+
+#  another that fails. (The version that fails will have no output.
+alien_color2 = "red"
+if alien_color2 == "green":
+    print("\nIs the alien's color green?")

@@ -18,7 +18,7 @@ another five tests evaluate to False.
 
 '''
 
-# " " and ' ' are similar.
+# " " and ' ' are similar..
 #1 cities
 city = 'san francisco'
 print("Is the city 'San Francsico'?")
