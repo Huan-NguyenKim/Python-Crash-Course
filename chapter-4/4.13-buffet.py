@@ -11,7 +11,7 @@ each of the items on the revised menu.
 '''
 
 # Buffet: A buffet-style restaurant offers only five basic foods. Think of five
-# simple foods, and store them in a tuple.
+# simple foods, and store them in a tuple..
 
 foods = ("lobster", "sushi","salad", "soup")
 

@@ -5,7 +5,7 @@
 #   •	 Print the message Three items from the middle of the list are:. Use a slice to
 # print three items from the middle of the list.
 #   •	 Print the message The last three items in the list are:. Use a slice to print the
-# last three items in the list.
+# last three items in the list..
 
 
 #Answer
