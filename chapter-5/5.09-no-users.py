@@ -15,10 +15,16 @@ usernames = []
 # would you like to see a status report?
 # •	 Otherwise, print a generic greeting, such as Hello Jaden, thank you for
 # logging in again.
-if 
+if usernames:
 
-for username in usernames:   #this will be used to return the names.
-    if username == "admin":  #checking whether or not "ADMIN" is in the list. Then, return a special output
-        print(f"Hello {username.title()}! Would you like to see a report?")
-    else:
-        print(f"Hello {username.title()}! Thank you for logging in!")
+    for username in usernames:   #this will be used to return the names.
+        if username == "admin":  #checking whether or not "ADMIN" is in the list. Then, return a special output
+            print(f"Hello {username.title()}! Would you like to see a report?")
+        else:
+            print(f"Hello {username.title()}! Thank you for logging in!")
+
+
+
+#•	 If the list is empty, print the message We need to find some users!
+else:
+    print("There is no one on the list. We have to find some users.")
