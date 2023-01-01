@@ -18,11 +18,18 @@ elder..
 
 # 1/ •	If the person is less than 2 years old, print a message that the person is a baby.
 
-age = 2
+age = 7
 if age == 2:
     print("You are a baby.")
+
 
 # 2/ •	 If the person is at least 2 years old but less than 4, print a message that
 # the person is a toddler.
 elif age <= 4:
     print("You are a todler.")
+
+
+# 3/•	 If the person is at least 4 years old but less than 13, print a message that
+# the person is a kid.
+elif age > 4 and age < 13:
+    print("You are a kid")
