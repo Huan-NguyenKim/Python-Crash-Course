@@ -26,3 +26,11 @@ if "durian" in favorite_fruits:
 
 if "cherry"  in favorite_fruits:
     print("\nI love cherries!")
+
+if "kiwi" in favorite_fruits:
+    print("\nI love kiwis!")
+
+if "banana" not in favorite_fruits:
+    print("\nSorry banana is not on the list.")
+
+print("\nDo you like fruits?")
