@@ -13,3 +13,11 @@ that the username is available.
 'JOHN' should not be accepted. (To do this, you’ll need to make a copy of
 current_users containing the lowercase versions of all existing users.)
 '''
+
+# 1/• Make a list of five or more usernames called current_users.
+current_users = ["huy","hoang","liem","toan","linh"]
+
+
+# 2/• Make another list of five usernames called new_users. Make sure one or
+# two of the new usernames are also in the current_users list.
+new_users = ["huy","hoang","dang","truat","thach"]
