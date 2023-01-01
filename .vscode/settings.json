@@ -1,7 +1,9 @@
 {
     "files.autoSave": "onFocusChange",
-    "explorer.sortOrder": "modified",
+    "explorer.sortOrder": "filesFirst",
     "explorer.openEditors.sortOrder": "editorOrder",
     "outline.collapseItems": "alwaysCollapse",
-    "search.quickOpen.history.filterSortOrder": "default"
+    "search.quickOpen.history.filterSortOrder": "default",
+    "search.sortOrder": "default",
+    "explorer.sortOrderLexicographicOptions": "default"
 }

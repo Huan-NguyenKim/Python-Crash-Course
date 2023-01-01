@@ -15,3 +15,11 @@ the person is an adult.
 •	 If the person is age 65 or older, print a message that the person is an
 elder..
 '''
+
+# •	 If the person is less than 2 years old, print a message that the person is a baby.
+
+age = 2
+if age == 2:
+    print("You are a baby.")
+
+# 
