@@ -15,3 +15,8 @@ favorite_fruits = ["apple","avocado","durian","cherry","durian"]
 # Write five if statements. Each should check whether a certain kind of fruit
 # is in your list. If the fruit is in your list, the if block should print a statement,
 # such as You really like bananas!
+if "apple" in favorite_fruits:
+    print("I love apples!")
+
+if "avocado" in favorite_fruits:
+    print("\nI love avocados!")
