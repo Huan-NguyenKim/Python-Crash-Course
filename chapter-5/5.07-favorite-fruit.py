@@ -7,3 +7,11 @@ independent if statements that check for certain fruits in your list.
 is in your list. If the fruit is in your list, the if block should print a statement,
 such as You really like bananas!
 '''
+
+# •	 Make a list of your three favorite fruits and call it favorite_fruits.
+favorite_fruits = ["apple","avocado","durian","cherry","durian"]
+
+
+# Write five if statements. Each should check whether a certain kind of fruit
+# is in your list. If the fruit is in your list, the if block should print a statement,
+# such as You really like bananas!
