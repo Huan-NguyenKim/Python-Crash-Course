@@ -2,6 +2,6 @@
     "files.autoSave": "onFocusChange",
     "explorer.sortOrder": "modified",
     "explorer.openEditors.sortOrder": "editorOrder",
-    "outline.collapseItems": "alwaysExpand",
+    "outline.collapseItems": "alwaysCollapse",
     "search.quickOpen.history.filterSortOrder": "default"
 }
