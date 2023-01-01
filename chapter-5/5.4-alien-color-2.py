@@ -9,3 +9,14 @@ write an if-else chain.
 •	 Write one version of this program that runs the if block and another that
 runs the else block.
 '''
+
+
+# •	 If the alien’s color is green, print a statement that the player just earned
+# 5 points for shooting the alien.
+# one version of this program that runs the if block (means printing the output from IF)
+
+alien_color1 = "red" 
+if alien_color1 == "red":
+    print("The alien's color is red. You have just earned 5 points.")
+else:
+    print("So sorry")
