@@ -8,7 +8,7 @@
 for the appropriate color alien.
 '''
 
-# If the alien is green, print a message that the player earned 5 points
+# 1/ If the alien is green, print a message that the player earned 5 points
 alien_color1 = "green"
 print("Is the alien's color green?")
 
@@ -22,13 +22,13 @@ else:
 print("\n")
 
 
-# If the alien is yellow, print a message that the player earned 10 points.
-alien_color = "yellow"
+# 2/ If the alien is yellow, print a message that the player earned 10 points.
+alien_color2 = "yellow"
 print("Is the alien's color green?")
 
-if alien_color == "green":
+if alien_color2 == "green":
     print("Yes, the alien's color is green. You have just earned 5 points.")
-elif alien_color == "yellow":
+elif alien_color2 == "yellow":
     print("No, the alien's color is yellow. You have earned 10 points (Output from ELIF).")
 else:
     print("No. The alien's color is red. You have earned 15 points.")
