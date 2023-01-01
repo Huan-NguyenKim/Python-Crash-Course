@@ -9,7 +9,7 @@ such as You really like bananas!
 '''
 
 # •	 Make a list of your three favorite fruits and call it favorite_fruits.
-favorite_fruits = ["apple","avocado","durian","cherry","durian"]
+favorite_fruits = ["apple","avocado","durian","cherry","kiwi"]
 
 
 # Write five if statements. Each should check whether a certain kind of fruit
@@ -20,3 +20,9 @@ if "apple" in favorite_fruits:
 
 if "avocado" in favorite_fruits:
     print("\nI love avocados!")
+
+if "durian" in favorite_fruits:
+    print("\nI love durians!")
+
+if "cherry"  in favorite_fruits:
+    print("\nI love cherries!")
