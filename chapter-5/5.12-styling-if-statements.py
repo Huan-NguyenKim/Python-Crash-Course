@@ -24,4 +24,4 @@ for city in cities:
     if city in california:
         print(f'{city.title()} is in California')
     else:
-        print(f'Sorry! {city.title()} is not in California.')
+        print(f'So sorry! {city.title()} is not in California.')
