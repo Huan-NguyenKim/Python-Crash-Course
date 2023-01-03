@@ -13,6 +13,10 @@ Your output should read "1st 2nd 3rd 4th 5th 6th
 # •	 Store the numbers 1 through 9 in a list.
 numbers = ['1','2','3','4','5','6','7','8','9']
 
+#Another way to create a list of number (in case we have to work with a much greater list such as 1-1000)
+# numbers = list(range(1,9))
+
+
 # •	 Loop through the list.
 for number in numbers:
     if number == '1':
@@ -21,5 +25,7 @@ for number in numbers:
         print("The number is 2nd.")
     elif number == '3':
         print("The number is 3rd.")
+    else:
+        print (f"The number is {number}th.")
 
 
