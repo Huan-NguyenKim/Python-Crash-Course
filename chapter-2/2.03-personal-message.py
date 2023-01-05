@@ -4,3 +4,10 @@
 
 name = "Huan"
 print(f"Hello {name.title()}! Would you like to learn some Python today?")
+
+
+'''Output:
+
+Hello Huan! Would you like to learn some Python today?
+
+'''
