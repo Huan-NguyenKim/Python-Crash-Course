@@ -19,3 +19,13 @@ print(message2)
 print(message3)
 print(message4)
 print(message5)
+
+
+'''Output:
+
+The first   person's name is Huy
+The second  person's name is Hoang
+The third   person's name is Liem
+The fourth  person's name is Minh
+The fith    person's name is Linh
+'''
