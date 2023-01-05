@@ -3,3 +3,9 @@
 message = "Hello everyone!"
 print(message)
 
+
+'''
+Output:
+
+    Hello everyone!
+'''
