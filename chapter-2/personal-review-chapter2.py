@@ -148,7 +148,54 @@ Python calls any number with a decimal point a float.
 '''
 
 float1 = 0.4 + 0.2
-print('The float number is (0.4 + 0.2)' , float1)
+print('10/ The float number is (0.4 + 0.2)' , float1)
 
 
 print('\n')
+
+
+
+
+'''11/ Integers and Floats
+
+When you divide any two numbers, even if they are integers that result in a
+whole number, you’ll always get a float. 
+
+Also, you'll get a float after calculating using an interger and a float.
+'''
+
+float_and_integer = 0.5 + 6
+print('11/ 0.5 + 6 equals', float_and_integer)
+
+
+print('\n')
+
+
+
+'''12/ Underscores in Numbers
+
+When you’re writing long numbers, you can group digits using underscores
+to make large numbers more readable.
+
+Keep in mind that sometimes Python may ignore this in some cases.
+'''
+
+universe_age = 14_000_000_000
+
+print('12/ Python ignores the underscores' , universe_age)
+
+
+
+print('\n')
+
+
+
+
+'''13/ Multiple Assignment
+
+You can assign values to more than one variable using just a single line.
+
+'''
+
+a, b, c = 1 , 2 , 3
+print('13/ The value of a, b and c are ', a, b , 'and', c)
