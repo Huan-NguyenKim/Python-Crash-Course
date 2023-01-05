@@ -2,7 +2,14 @@
 #Then change the value of the variable to a new message, and print the new message.
 
 message1 = "Hello everyone!"
-print(message1)
+print("First output is ", message1)
 
 message2 = "My name is Huan!"
-print(message2)
+print("Second output is ", message2)
+
+'''
+Output:
+
+    First output is  Hello everyone!
+    Second output is  My name is Huan!
+'''
