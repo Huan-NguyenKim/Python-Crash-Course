@@ -7,3 +7,13 @@ famous_person = "president john f. kennedy"
 famous_quote = 'once said, "Ask not what your country can do for you. Ask what you can do for your country!"'
 
 print(famous_person.title(), famous_quote)
+
+
+
+'''Output
+
+
+President John F. Kennedy once said, 
+"Ask not what your country can do for you. Ask what you can do for your country!"
+
+'''
