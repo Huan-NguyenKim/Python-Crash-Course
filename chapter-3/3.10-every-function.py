@@ -65,5 +65,41 @@ print("\nThe reverse order is ",languages)
 
 #Finding the Length of the list
 list_length = len(languages)
-print("The length of the list is", list_length)
+print("\nThe length of the list is", list_length)
 
+
+
+'''Output:
+
+The original list is ['English', 'Cantonese', 'Vietnamese', 'Mandarin', 'Spanish']
+
+The 3rd language on the list is Vietnamese
+
+Replacing Spanish with German
+
+Adding French to the end of the list. The list of languages now contain ['English', 'Cantonese', 'Vietnamese', 'Mandarin', 'German', 'French']
+
+Instering Japanese to the 2nd position of the list.
+The list now has ['English', 'Japanese', 'Cantonese', 'Vietnamese', 'Mandarin', 'German', 'French']
+
+Removing the 3rd language, which is Cantonese.
+The list now has ['English', 'Japanese', 'Vietnamese', 'Mandarin', 'German', 'French']
+
+The popped item is French
+The new list after using the pop() method is ['English', 'Japanese', 'Vietnamese', 'Mandarin', 'German']      
+
+Another popped language is English
+The language list now has ['Japanese', 'Vietnamese', 'Mandarin', 'German']
+
+Removing Mandarin from the list
+The list now is ['Japanese', 'Vietnamese', 'German']
+
+The temporary sorted list of language is ['German', 'Japanese', 'Vietnamese']
+
+The original list is still ['Japanese', 'Vietnamese', 'German']
+
+The list is now permanently sorted, which include ['German', 'Japanese', 'Vietnamese']
+
+The reverse order is  ['Vietnamese', 'Japanese', 'German']
+The length of the list is 3
+'''
