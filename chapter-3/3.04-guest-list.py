@@ -15,3 +15,13 @@ message3 = f"Would you like to join me for dinner, {friends[2].title()}?"
 print(message1)
 print(message2)
 print(message3)
+
+
+
+'''Output:
+
+Would you like to join me for dinner, Huy?
+Would you like to join me for dinner, Hoang?
+Would you like to join me for dinner, Liem?
+
+'''
