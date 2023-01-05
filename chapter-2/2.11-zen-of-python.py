@@ -2,3 +2,10 @@
 # through the additional principles.
 
 import this 
+
+'''Output
+
+
+No Output
+
+'''
