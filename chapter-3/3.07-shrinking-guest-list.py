@@ -107,4 +107,43 @@ print(good_news2)
 del friends[0]
 del friends[0]
 
+print('\n')
+
 print(friends)
+
+
+
+'''Output:
+
+Would you like to join me for dinner, Huy?
+Would you like to join me for dinner, Hoang?
+Would you like to join me for dinner, Liem? 
+
+Hoang is not available. Hence, he won't be able to come to the party.
+
+We will have a bigger table. So i would like to invite more friends.
+
+Would you like to come to my party, Dang?
+Would you like to come to my party, Huy?
+Would you like to come to my party, Toan?
+Would you like to come to my party, Linh?
+Would you like to come to my party, Liem?
+Would you like to come to my party, Truat?
+
+Unfortunately, due to the inflation, I can only invite 2 friends to the party now!
+
+Sorry Truat! We don't have a party anymore.
+
+Sorry Liem! We don't have a party anymore.
+
+Sorry Linh! We don't have a party anymore.
+
+Sorry Toan! We don't have a party anymore.
+
+Hello Dang! We can still have a small dinner!
+
+Hello Huy! We can stil have a small dinner!
+
+[]
+
+'''
