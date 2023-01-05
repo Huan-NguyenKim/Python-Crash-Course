@@ -4,3 +4,11 @@
 
 favorite_number = 8
 print(f"Huan's favorite number is", favorite_number)
+
+
+'''Output
+
+
+Huan's favorite number is 8
+
+'''
