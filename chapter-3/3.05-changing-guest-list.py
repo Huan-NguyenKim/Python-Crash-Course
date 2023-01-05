@@ -36,3 +36,19 @@ message6 = f"Would you like to come to my party, {friends[2].title()}?"
 print(message4)
 print(message5)
 print(message6)
+
+
+
+'''Output:
+
+Would you like to join me for dinner, Huy?
+Would you like to join me for dinner, Hoang?
+Would you like to join me for dinner, Liem?
+
+Hoang is not available. Hence, he won't be able to come to the party.
+
+Would you like to come to my party, Huy?
+Would you like to come to my party, Linh?
+Would you like to come to my party, Liem?
+
+'''
