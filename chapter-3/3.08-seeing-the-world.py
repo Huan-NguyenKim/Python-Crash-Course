@@ -53,3 +53,24 @@ places.sort(reverse=True)
 
 #   Print the list to show that its order has changed.
 print("\nThe list is reversed again",places)
+
+
+
+
+'''Output:
+
+The original list is ['France', 'Uk', 'Germany', 'China', 'Australia']
+
+The temporary sorted list is ['Australia', 'China', 'France', 'Germany', 'Uk']
+
+The original list is still ['France', 'Uk', 'Germany', 'China', 'Australia']
+
+The reversed list is ['Australia', 'China', 'Germany', 'Uk', 'France']
+
+The reversed list is reversed back to the original list again ['France', 'Uk', 'Germany', 'China', 'Australia']
+
+The permanently sorted list is ['Australia', 'China', 'France', 'Germany', 'Uk']
+
+The list is reversed again ['Uk', 'Germany', 'France', 'China', 'Australia']
+
+'''
