@@ -2,6 +2,14 @@
 # that person’s name in lowercase, uppercase, and title case
 
 name = "huan nguyen"
-print(name.lower())
-print(name.upper())
-print(name.title())
+print("The lower name is ", name.lower())
+print("The upper name is ", name.upper())
+print("The title name is ", name.title())
+
+
+'''Output
+    
+    + The lower name is  huan nguyen
+    + The upper name is  HUAN NGUYEN
+    + The title name is  Huan Nguyen
+'''
