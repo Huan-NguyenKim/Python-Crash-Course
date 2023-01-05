@@ -7,3 +7,12 @@
 
 print("President John F. Kennedy said,")
 print('"Ask not what your country can do for you. Ask what you can do for your country!"')
+
+
+'''Output
+
+President John F. Kennedy said,
+"Ask not what your country can do for you. Ask what you can do for your country!"
+
+
+'''
