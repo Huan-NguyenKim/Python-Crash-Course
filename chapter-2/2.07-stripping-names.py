@@ -18,3 +18,23 @@ print(name.rstrip())
 
 print("\nUsing the strip method")
 print(name.strip())
+
+
+
+'''Output
+
+Not using any methods
+        Huan Nguyen
+
+
+Using the lstrip method
+Huan Nguyen
+
+
+Using the rstrip method
+        Huan Nguyen
+
+Using the strip method
+Huan Nguyen
+
+'''
