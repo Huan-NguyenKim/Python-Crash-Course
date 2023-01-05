@@ -64,6 +64,7 @@ print('4c/ This output using name.lower() method: ', name.lower())
 print('\n')
 
 
+
 '''5/ Using Variables in Strings
 
 Two variables to represent a first name and a last
@@ -75,3 +76,29 @@ last_name = 'nguyen'
 full_name = f'{first_name} {last_name}'
 
 print('5/ My full name is ', full_name.title())
+
+
+
+print('\n')
+
+
+
+'''6/ Adding Whitespace to Strings with Tabs or Newlines
+'''
+print('6a/ This message does not have spaces or tabs in the beginning of the message')
+print('6b/ This message has spaces and/or tabs in the beginning of the message')
+
+
+print('\n')
+
+
+
+'''7/ Stripping Whitespace
+
+Using rstrip(), lstrip(), and strip() method. This may be helpful when comparing 2 strings
+'''
+
+name1 = ' huan '
+print('7a/ Using rstrip() method', name1.rstrip())
+print('7b/ Using lstrip() method', name1.lstrip())
+print('7c/ Using rstrip() method', name1.strip())
