@@ -20,3 +20,13 @@ print(message2)
 print(message3)
 print(message4)
 print(message5)
+
+
+'''Output:
+
+I would like to own a Honda car
+I would like to own a Toyota car
+I would like to own a Mazda car
+I would like to own a Gmc car
+I would like to own a Ferrari car
+'''
