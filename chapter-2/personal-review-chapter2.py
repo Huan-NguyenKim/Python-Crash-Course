@@ -199,3 +199,29 @@ You can assign values to more than one variable using just a single line.
 
 a, b, c = 1 , 2 , 3
 print('13/ The value of a, b and c are ', a, b , 'and', c)
+
+
+print('\n')
+
+
+
+'''14/ Constants
+
+Python programmers uses all capital letters to indicate a variable should be treated as a
+constant and never be changed
+'''
+
+CONSTANT = 88
+print('14/ The constant is ', CONSTANT)
+
+
+
+print('\n')
+
+
+'''15/ How Do You Write Comments?
+Using # and '''''''
+
+'''
+print('15a/ We can make a single comment by using the # symbol')
+print("15b/ We can make multiple comments by using ''' ''' ")
