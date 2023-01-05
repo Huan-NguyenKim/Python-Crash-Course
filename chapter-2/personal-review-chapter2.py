@@ -10,7 +10,8 @@ value, which is the information associated with that variable.Then, print that v
 
 '''
 city = "San Francisco is a city in California"
-print(city)
+print('1/', city)
+
 
 
 '''2/ Naming and Using Variables
@@ -29,3 +30,48 @@ better than n, student_name is better than s_n.
 •	 Be careful when using the lowercase letter l and the uppercas
 
 '''
+
+
+
+'''3/ Strings
+
+"This is a string."
+
+'''
+
+
+print('\n')
+
+
+'''4/ Changing Case in a String with Methods
+'''
+
+name = 'huan nguyen'
+
+#using title()
+print('4a/ This output using name.title() method: ', name.title())
+
+
+# using name.upper())
+print('4b/ This output using name.upper() method: ', name.upper())
+
+
+# using name.lower())
+print('4c/ This output using name.lower() method: ', name.lower())
+
+
+
+print('\n')
+
+
+'''5/ Using Variables in Strings
+
+Two variables to represent a first name and a last
+name respectively. Then, combine them to display a full name
+'''
+
+first_name = 'huan'
+last_name = 'nguyen'
+full_name = f'{first_name} {last_name}'
+
+print('5/ My full name is ', full_name.title())
