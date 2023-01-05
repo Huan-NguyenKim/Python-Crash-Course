@@ -54,3 +54,25 @@ print(message6)
 print(message7)
 print(message8)
 print(message9)
+
+
+
+
+'''Output:
+
+Would you like to join me for dinner, Huy?
+Would you like to join me for dinner, Hoang?
+Would you like to join me for dinner, Liem? 
+
+Hoang is not available. Hence, he won't be able to come to the party.
+
+We will have a bigger table. So i would like to invite more friends.
+
+Would you like to come to my party, Dang?
+Would you like to come to my party, Huy?
+Would you like to come to my party, Toan?
+Would you like to come to my party, Linh?
+Would you like to come to my party, Liem?
+Would you like to come to my party, Truat?
+
+'''
