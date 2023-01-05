@@ -6,3 +6,11 @@
 
 
 print("If you want to make a comment, use the symbol '#' ")
+
+
+'''Output
+
+
+If you want to make a comment, use the symbol '#' 
+
+'''
