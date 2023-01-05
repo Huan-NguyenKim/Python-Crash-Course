@@ -63,3 +63,26 @@ print(message9)
 
 length_list = len(friends)
 print("\nThere are ", length_list,"friends!" " Their names are",friends)
+
+
+
+
+'''Output:
+
+Would you like to join me for dinner, Huy?
+Would you like to join me for dinner, Hoang?
+Would you like to join me for dinner, Liem? 
+
+Hoang is not available. Hence, he won't be able to come to the party.
+
+We will have a bigger table. So i would like to invite more friends.
+
+Would you like to come to my party, Dang?
+Would you like to come to my party, Huy?
+Would you like to come to my party, Toan?
+Would you like to come to my party, Linh?
+Would you like to come to my party, Liem?
+Would you like to come to my party, Truat?
+
+There are  6 friends! Their names are ['dang', 'huy', 'toan', 'linh', 'liem', 'truat']
+'''
