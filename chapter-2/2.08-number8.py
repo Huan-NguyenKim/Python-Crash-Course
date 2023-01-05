@@ -16,3 +16,20 @@ print(8*1)
 
 print("\nThe division is:")
 print(24/3 )
+
+
+'''Output
+
+The Addition is
+8
+
+The subtraction is:
+8
+
+The multiplication is:
+8
+
+The division is:
+8.0
+
+'''
