@@ -5,6 +5,16 @@
 
 numbers = list(range(1,1000001))
 
-print(min(numbers))
-print(max(numbers))
-print(sum(numbers))
+print('The min is', min(numbers))
+print('The max is', max(numbers))
+print('The sum is', sum(numbers))
+
+
+
+'''Output:
+
+The min is 1
+The max is 1000000
+The sum is 500000500000
+
+'''
