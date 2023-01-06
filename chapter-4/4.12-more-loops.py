@@ -31,3 +31,18 @@ friend_foods = my_foods[:]
 print("\nMy friend favorite foods are:")
 for friend_food in friend_foods[:]:
     print(friend_food.title())
+
+
+'''Output:
+
+My favorite foods are:
+Pizza
+Falafel
+Carrot Cake
+
+My friend favorite foods are:
+Pizza
+Falafel
+Carrot Cake
+
+'''
