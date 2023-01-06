@@ -98,3 +98,50 @@ method.
 print('7a/ Inserting Chicago in the middle of the list (after newyork and before miami')
 cities.insert(2 , 'chicago')
 print('7b/ The list now has: ',cities)
+
+
+print('\n')
+
+
+
+'''8/Removing Elements from a List
+
+Removing an item by using the del statement.
+
+'''
+
+print('8a/ Removing Miami(4th item) from the list')
+del cities[3]
+print('8b/ The new list is: ', cities)
+
+
+print('\n')
+
+
+
+'''9/ Removing an Item Using the pop() Method
+
+The pop() method removes the last item in a list
+'''
+
+print('9a/ Removing an item(last) using the pop method()')
+new_cities =  cities.pop()
+print('9b/ The city got removed is: ', new_cities)
+print('9c/ The new list now is:', cities)
+
+
+print('\n')
+
+
+
+'''10/ Popping Items from any Position in a List
+
+You can use pop() to remove an item from any position in a list by including
+the index of the item you want to remove in parentheses.
+
+'''
+
+print('10a/ Removing the 2nd item (new york) in the list by using the pop(1) method')
+cities2 = cities.pop(1)
+print('10b/ The city got removed is: ', cities2)
+print('10c/ The new list now is:', cities)
