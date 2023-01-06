@@ -243,3 +243,58 @@ of a string.
    
     Finally, you read about the philosophy of keeping your code as simple as possible, whenever possible" 
 '''
+
+
+
+
+'''Output:
+
+1/ San Francisco is a city in California
+
+
+4a/ This output using name.title() method:  Huan Nguyen
+4b/ This output using name.upper() method:  HUAN NGUYEN
+4c/ This output using name.lower() method:  huan nguyen
+
+
+5/ My full name is  Huan Nguyen
+
+
+6a/ This message does not have spaces or tabs in the beginning of the message
+6b/ This message has spaces and/or tabs in the beginning of the message
+
+
+7a/ Using rstrip() method  huan
+7b/ Using lstrip() method huan 
+7c/ Using rstrip() method huan
+
+
+8a/ This message will not show single quotes  because i use single quotes for print()
+8b/ This message will show single quotes ' ' because i use double quotes for print()
+
+
+9a/ The result after adding integers (1 + 2) is 3
+9b/ The result after subtracting integers ( 5 - 1) is 4
+9c/ The result after multiplying integers (4 * 3) is  12
+9d/ The result after dividing integers (20 / 2) is  10.0
+'n
+10/ The float number is (0.4 + 0.2) 0.6000000000000001
+
+
+11/ 0.5 + 6 equals 6.5
+
+
+12/ Python ignores the underscores 14000000000
+
+
+13/ The value of a, b and c are  1 2 and 3
+
+
+14/ The constant is  88
+
+
+15a/ We can make a single comment by using the # symbol
+15b/ We can make multiple comments by using ''' '''
+
+
+'''
