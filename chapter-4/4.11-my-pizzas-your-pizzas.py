@@ -58,3 +58,37 @@ for pizza in pizzas[:]:
 print("\nThe friend_pizzas list now has 4 items too. They are:")
 for friend_pizza in friend_pizzas[:]:
     print(friend_pizza.title())
+
+
+
+'''Output:
+
+pizza1
+
+I really like Pizza1
+
+ pizza2
+
+I really like Pizza2
+
+ pizza3
+
+I really like Pizza3
+
+I love all kinds of pizzas
+
+Friend_pizzas is a copied list of the pizzas list. It contains ['pizza1', 'pizza2', 'pizza3']
+
+The original list now has 4 items. They are:
+Pizza1
+Pizza2
+Pizza3
+Pizza4
+
+The friend_pizzas list now has 4 items too. They are:
+Pizza1
+Pizza2
+Pizza3
+New Pizza
+
+'''
