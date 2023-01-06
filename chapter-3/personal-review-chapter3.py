@@ -65,3 +65,36 @@ print('5a/ The original first city is ', cities[0].title())
 print('Changing the first city to los angeles')
 cities[0] = 'los angeles'
 print('5b/ The first city of the new list is: ', cities[0].title())
+
+
+print('\n')
+
+
+
+'''6/ Adding/ Appending Elements to the End of a List
+
+The simplest way to add a new element to a list is to 'append' the item to the
+list. 
+'''
+
+print('6a/ Adding Houston as the 4th city to the list')
+
+cities.append('houston')
+
+print('6b/ The list now has: ', cities)
+
+
+print('\n')
+
+
+
+'''7/Inserting Elements into a List
+
+You can add a new element at any position in your list by using the insert()
+method.
+
+'''
+
+print('7a/ Inserting Chicago in the middle of the list (after newyork and before miami')
+cities.insert(2 , 'chicago')
+print('7b/ The list now has: ',cities)
