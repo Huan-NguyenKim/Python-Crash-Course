@@ -36,3 +36,24 @@ for country2 in countries[3:6]:
 print("\nThe last three countries in the list are:")
 for country3 in countries[6:9]:
     print(country3.title())
+
+
+
+'''Output:
+
+The first three countries in the list are:
+Usa
+France
+Vietnam
+
+The next three countries in the list are:
+China
+Canada
+Uk
+
+The last three countries in the list are:
+Germany
+Brazil
+Australia
+
+'''
