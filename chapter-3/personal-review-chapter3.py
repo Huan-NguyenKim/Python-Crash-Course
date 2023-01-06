@@ -159,3 +159,21 @@ print('\n')
 
 cities.remove('chicago')
 print('11/ The list after removing chicago using the remove() method')
+
+
+print('\n')
+
+
+
+'''12/ Sorting a List Permanently with the sort() Method
+
+This helps to sort a list alphabetically.
+
+'''
+
+alphabet = ['c', 'f', 'a', 'd', 'a']
+print('12a/ The unsorted list is ', alphabet)
+
+alphabet.sort()
+
+print('12b/ The sorted list after using the sort() method is: ', alphabet)
