@@ -27,3 +27,23 @@ for pet in pets:
 # common. You could print a sentence such as Any of these animals would
 # make a great pet!
 print(f"\nMany people love {pet.title()}")
+
+
+
+'''Output:
+
+ dog
+
+Dog would be a great pet
+
+ cat
+
+Cat would be a great pet
+
+ bird
+
+Bird would be a great pet
+
+Many people love Bird
+
+'''
