@@ -223,6 +223,13 @@ len() method
 print('15/ The length of the list after using the len() method is', len(names))
 
 
+'''16/ Avoiding Index Errors When Working with Lists
+
+One commom type of error is while working with Lists is searching for item outsite of the range. 
+For example, if your list has three items, and you ask for the fourth item, an error will display.
+
+'''
+
 
 '''Summary
 
