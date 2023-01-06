@@ -37,3 +37,31 @@ print('3/ Using list[0] to display the first item of the list, which is ', list[
 
 
 print('\n')
+
+
+
+'''4/ Using Individual Values from a List
+
+You can use individual values from a list just as you would any other variable. For example, you can use f-strings to create a message based on a
+value from a list.'''
+
+print(f'4/ The 3rd element is {list[2].title()} (also using title() method)')
+
+
+print('\n')
+
+
+
+'''5/ Modifying Elements in a List
+
+    To change an element, use the name of the list followed
+by the index of the element you want to change, and then provide the new
+value you want that item to have.
+'''
+
+cities = ['san francisco', 'new york', 'miami']
+print('5a/ The original first city is ', cities[0].title())
+
+print('Changing the first city to los angeles')
+cities[0] = 'los angeles'
+print('5b/ The first city of the new list is: ', cities[0].title())
