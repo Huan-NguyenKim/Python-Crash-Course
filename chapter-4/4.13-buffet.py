@@ -47,3 +47,21 @@ foods = ("lobster", "noodles","salad", "bbq")
 print("\nThe new menu is:")
 for food in foods:
     print(food.title())
+
+
+
+'''Output:
+
+The buffet has 4 special foods. They are:
+Lobster
+Sushi  
+Salad
+Soup
+
+The new menu is:
+Lobster
+Noodles
+Salad
+Bbq
+
+'''
