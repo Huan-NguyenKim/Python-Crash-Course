@@ -7,4 +7,11 @@ cubes = []                           # initializing cubes
 for value in range(1,11):            # range from 1 to 11. The program will use all numbers from 1 to 10
     cube_value = value**3            # cube is **3 (ex 1^3)
     cubes.append(cube_value)         # add all cube values to the list "cubes"
-print(cubes)                         # print output
+print('The cubes of integer from 1 to 10 are', cubes)                         # print output
+
+
+'''Output:
+
+The cubes of integer from 1 to 10 are [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
+
+'''
