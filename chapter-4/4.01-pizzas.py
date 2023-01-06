@@ -30,3 +30,23 @@ for pizza in pizzas:
 # about the kinds of pizza you like and then an additional sentence, such as
 # I really love pizza!
 print("\nI love all kinds of pizzas")
+
+
+
+'''Output:
+
+ pizza1
+
+I really like Pizza1
+
+ pizza2
+
+I really like Pizza2
+
+ pizza3
+
+I really like Pizza3
+
+I love all kinds of pizzas
+
+'''
