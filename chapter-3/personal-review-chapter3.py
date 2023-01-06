@@ -145,3 +145,17 @@ print('10a/ Removing the 2nd item (new york) in the list by using the pop(1) met
 cities2 = cities.pop(1)
 print('10b/ The city got removed is: ', cities2)
 print('10c/ The new list now is:', cities)
+
+
+print('\n')
+
+
+
+'''11/ Removing an Item by Value
+
+ use the remove() method to remove an exact item. For example, remove(chicago)
+
+'''
+
+cities.remove('chicago')
+print('11/ The list after removing chicago using the remove() method')
