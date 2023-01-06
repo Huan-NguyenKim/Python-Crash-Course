@@ -4,3 +4,10 @@
 
 for value in range(1,1000001):
     print(value) 
+
+
+'''Output:
+
+The output is pretty big. It ranges from 1 to 1,000,001
+
+'''
