@@ -11,4 +11,4 @@ A list is a collection of items in a particular order
 '''
 
 list = ['a', 'b', 'c']
-print('The elements of the list are: ', list)
+print('1/ The elements of the list are: ', list)
