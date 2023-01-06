@@ -235,3 +235,64 @@ how to avoid index errors when you’re working with lists.
 '''
 
 
+
+
+'''Output
+
+1/ The elements of the list are:  ['a', 'b', 'c']
+
+
+2/ The 2nd item of the list is:  b
+
+
+3/ Using list[0] to display the first item of the list, which is  a
+
+
+4/ The 3rd element is C (also using title() method)
+
+
+5a/ The original first city is  San Francisco
+Changing the first city to los angeles
+5b/ The first city of the new list is:  Los Angeles
+
+
+6a/ Adding Houston as the 4th city to the list
+6b/ The list now has:  ['los angeles', 'new york', 'miami', 'houston']
+
+
+7a/ Inserting Chicago in the middle of the list (after newyork and before miami
+7b/ The list now has:  ['los angeles', 'new york', 'chicago', 'miami', 'houston']
+
+
+8a/ Removing Miami(4th item) from the list
+8b/ The new list is:  ['los angeles', 'new york', 'chicago', 'houston']
+
+
+9a/ Removing an item(last) using the pop method()
+9b/ The city got removed is:  houston
+9c/ The new list now is: ['los angeles', 'new york', 'chicago']
+
+
+10a/ Removing the 2nd item (new york) in the list by using the pop(1) method
+10b/ The city got removed is:  new york
+10c/ The new list now is: ['los angeles', 'chicago']
+
+
+11/ The list after removing chicago using the remove() method
+
+
+12a/ The unsorted list is  ['c', 'f', 'a', 'd', 'a']
+12b/ The sorted list after using the sort() method is:  ['a', 'a', 'c', 'd', 'f']
+
+
+13a/ The original list of names is:  ['huan', 'anh', 'dang', 'giang', 'hoang', 'liem', 'bao']
+13b/ The list of names after using sorted() method (temporarily) ['anh', 'bao', 'dang', 'giang', 'hoang', 'huan', 'liem']
+13c/ The sorted() method does not affect the original list. It still is:  ['huan', 'anh', 'dang', 'giang', 'hoang', 'liem', 'bao']
+
+
+14a/ The original list is:  ['huan', 'anh', 'dang', 'giang', 'hoang', 'liem', 'bao']
+14b/ The list after using the reverse() method ['bao', 'liem', 'hoang', 'giang', 'dang', 'anh', 'huan']       
+
+
+15/ The length of the list after using the len() method is 7
+'''
