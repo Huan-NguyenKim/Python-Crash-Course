@@ -177,3 +177,47 @@ print('12a/ The unsorted list is ', alphabet)
 alphabet.sort()
 
 print('12b/ The sorted list after using the sort() method is: ', alphabet)
+
+
+
+print('\n')
+
+
+
+'''13/ Sorting a List Temporarily with the sorted() Function
+
+    The sorted() function lets you display your list
+in a particular order Temporarily but doesn’t affect the actual order of the list
+'''
+
+names = ['huan', 'anh', 'dang', 'giang', 'hoang', 'liem', 'bao']
+print('13a/ The original list of names is: ', names)
+print('13b/ The list of names after using sorted() method (temporarily)',sorted(names))
+print('13c/ The sorted() method does not affect the original list. It still is: ', names)
+
+
+print('\n')
+
+
+
+'''14/ Printing a List in Reverse Order
+
+Use list.reverse() method
+
+'''
+
+print('14a/ The original list is: ', names)
+names.reverse()
+print('14b/ The list after using the reverse() method', names)
+
+
+print('\n')
+
+
+
+'''15/ Finding the Length of a List
+len() method
+
+'''
+
+print('15/ The length of the list after using the len() method is', len(names))
