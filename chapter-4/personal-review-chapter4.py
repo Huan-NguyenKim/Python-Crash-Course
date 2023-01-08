@@ -157,3 +157,27 @@ for integer in integers:                #for loop
     multiples_of_3.append(integer * 3)  #adding values (*3) to each integer (1 to 11)
 
 print('9/ The multiples of 3 (from 1 to 11) are:', multiples_of_3)    #output
+
+
+print('\n')
+
+
+
+'''10/ Simple Statistics with a List of Numbers
+
+    A few Python functions are helpful when working with lists of numbers. For
+example, you can easily find the minimum, maximum, and sum of a list of
+numbers:
+
+'''
+
+list_of_numbers = list(range(1,10))     #create a list range from 1 to 10
+
+min_number = min(list_of_numbers)
+print('10a/ The min number (range from 1 to 10) is:', min_number)
+
+max_number = max(list_of_numbers)
+print('10b/ The max number (range from 1 to 10) is:', max_number)
+
+sum_number = sum(list_of_numbers)
+print('10c/ The sum number (range from 1 to 10) is:', sum_number)
