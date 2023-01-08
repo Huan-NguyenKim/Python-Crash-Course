@@ -277,3 +277,75 @@ dimensions = (400, 100)
 print("15b/ The Modified dimensions are:")
 for dimension in dimensions:
     print(dimension)
+
+
+
+'''Output:
+
+1/ San Francisco is a city in California
+1/ Los Angeles is a city in California
+1/ Hayward is a city in California
+
+
+2a/ New York is city outside of California.
+2a/ Houston is city outside of California.
+2a/ Miami is city outside of California.
+
+2b/ These cities are not in California (this statement is outside of the loop)
+
+
+3/ We have to remember to indent(space) for the 2nd line after te FOR loop to avoid errors.
+
+
+4/ If PRINT() is not a part of the FOR loop, we don't have to indent
+
+
+5/ Please note that if a range 1 to 6, the system only displays 1 to 5
+For example 1 is the number in range from 1 to 6
+For example 2 is the number in range from 1 to 6
+For example 3 is the number in range from 1 to 6
+For example 4 is the number in range from 1 to 6
+For example 5 is the number in range from 1 to 6
+
+
+6/ The list of numbers from range 6 to 10 are:  [6, 7, 8, 9]
+
+
+7/ The list of even numbers from 2 to 11 are: [2, 4, 6, 8, 10]
+
+
+8/ The list of odd numbers from 1 to 11 are: [1, 3, 5, 7, 9]
+
+
+9/ The multiples of 3 (from 1 to 11) are: [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+
+
+10a/ The min number (range from 1 to 10) is: 1
+10b/ The max number (range from 1 to 10) is: 9
+10c/ The sum number (range from 1 to 10) is: 45
+
+
+11/ The first four names in the list are: ['huan', 'hoang', 'huy', 'liem']
+
+
+12/ The first 4 names of the list (using title()) is Huan
+12/ The first 4 names of the list (using title()) is Hoang
+12/ The first 4 names of the list (using title()) is Huy
+12/ The first 4 names of the list (using title()) is Liem
+
+
+My favorite languages are: ['vietnames', 'english', 'mandarin', 'cantonese']
+My father's favorite languages are: ['vietnames', 'english', 'mandarin', 'cantonese'] This is a copy of the original list
+
+
+14/ Tuple is similar to List. The difference is we can change value in LIST but not in Tuple.
+
+
+15a/ The Original dimensions are:
+200
+50
+15b/ The Modified dimensions are:
+400
+100
+
+'''
