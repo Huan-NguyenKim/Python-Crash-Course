@@ -140,3 +140,20 @@ odd_numbers = list(range(1, 11, 2))
 # This means we start from 1, then add 2 until the last number of the list, which is 11
 
 print('8/ The list of odd numbers from 1 to 11 are:', odd_numbers)
+
+print('\n')
+
+
+
+'''9/ We can do this method to do calculations as well. But it is a little bit more complicated.
+
+For example, we try to find the multiples of 3.
+'''
+
+multiples_of_3 = []     #create an empty list
+
+integers = list(range(1, 11))           #a list of integers from 1 to 11
+for integer in integers:                #for loop
+    multiples_of_3.append(integer * 3)  #adding values (*3) to each integer (1 to 11)
+
+print('9/ The multiples of 3 (from 1 to 11) are:', multiples_of_3)    #output
