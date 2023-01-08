@@ -97,3 +97,46 @@ Python’s range() function makes it easy to generate a series of numbers.
 print('5/ Please note that if a range 1 to 6, the system only displays 1 to 5')
 for number in range(1, 6):
     print('For example', number , 'is the number in range from 1 to 6')
+
+
+print('\n')
+
+
+'''6/ Using range() to Make a List of Numbers
+
+    If you want to make a list of numbers, you can convert the results of range()
+directly into a list using the list() function. When you wrap list() around a
+call to the range() function, the output will be a list of numbers.
+'''
+
+numbers = list(range(6, 10))
+print('6/ The list of numbers from range 6 to 10 are: ', numbers)
+
+
+print('\n')
+
+
+'''7/ We can also use the range() function to tell Python to skip numbers in a
+given range
+
+For example, we can use range() to create a list of EVEN NUMBERS
+'''
+
+even_numbers = list(range(2, 11, 2)) 
+# This means we start from 2, then add 2 until the last number of the list, which is 11
+
+print('7/ The list of even numbers from 2 to 11 are:', even_numbers)
+
+
+print('\n')
+
+
+
+'''8/ Similarly, we can use range() to create a list of ODD NUMBERS
+
+'''
+
+odd_numbers = list(range(1, 11, 2))
+# This means we start from 1, then add 2 until the last number of the list, which is 11
+
+print('8/ The list of odd numbers from 1 to 11 are:', odd_numbers)
