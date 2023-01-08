@@ -181,3 +181,36 @@ print('10b/ The max number (range from 1 to 10) is:', max_number)
 
 sum_number = sum(list_of_numbers)
 print('10c/ The sum number (range from 1 to 10) is:', sum_number)
+
+
+print('\n')
+
+
+
+'''11/ Slicing a List
+
+    To make a slice, you specify the index of the first and last elements you
+want to work with. 
+    As with the range() function, Python stops one item before the second index you specify
+'''
+
+names = ['huan', 'hoang', 'huy', 'liem', 'linh', 'dang', 'truat', 'toan'] #create a list of names
+print('11/ The first four names in the list are:', names[0 : 4])    #slicing the list by using names[0 : 4]
+
+
+print('\n')
+
+
+
+'''12/ Looping Through a Slice
+
+The problem with the 11th section is that we can't use title(). So we can FOr loop to help.
+
+You can use a slice in a for loop if you want to loop through a subset of
+the elements in a list.
+
+'''
+
+for name in names[0 : 4]:
+    print('12/ The first 4 names of the list (using title()) is', name.title())
+    
