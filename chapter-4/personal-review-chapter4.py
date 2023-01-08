@@ -257,7 +257,7 @@ print(dimensions[1])
 
 print('14/ Tuple is similar to List. The difference is we can change value in LIST but not in Tuple.')
 
-
+print('\n')
 
 '''15/ Writing over a Tuple
 
@@ -266,3 +266,14 @@ that represents a tuple. So if we wanted to change our dimensions, we could
 redefine the entire tuple:
 
 '''
+
+dimensions = (200, 50)
+print("15a/ The Original dimensions are:")
+for dimension in dimensions:
+    print(dimension)
+
+
+dimensions = (400, 100)
+print("15b/ The Modified dimensions are:")
+for dimension in dimensions:
+    print(dimension)
