@@ -211,6 +211,58 @@ the elements in a list.
 
 '''
 
-for name in names[0 : 4]:
+for name in names[0 : 4]:       #looping through the list NAMES above
     print('12/ The first 4 names of the list (using title()) is', name.title())
+
+
+print('\n')
+
+
+
+'''13/ Copying a List
+
+Often, you’ll want to start with an existing list and make an entirely new list
+based on the first one by using the     [:] method
+
+'''
+
+my_favorite_languages = ['vietnames', 'english', 'mandarin', 'cantonese']   #creating a list
+print('My favorite languages are:', my_favorite_languages)
+
+dad_favorite_languages = my_favorite_languages[:]   #copying the original list
+print("My father's favorite languages are:", dad_favorite_languages, 'This is a copy of the original list')
     
+
+print('\n')
+
+
+
+'''14/ Defining a Tuple
+
+    A tuple looks just like a list except you use parentheses instead of square
+brackets. Once you define a tuple, you can access individual elements by
+using each item’s index, just as you would for a list.
+
+    In other words, Tuple is similar to List. The difference is we can change
+value in LIST but not in Tuple.
+
+
+Example:
+
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+
+'''
+
+print('14/ Tuple is similar to List. The difference is we can change value in LIST but not in Tuple.')
+
+
+
+'''15/ Writing over a Tuple
+
+Although you can’t modify a tuple, you can assign a new value to a variable
+that represents a tuple. So if we wanted to change our dimensions, we could
+redefine the entire tuple:
+
+'''
