@@ -73,3 +73,41 @@ print(currency2 == "u s d")
 
 print("Is the currency 'usd' (no space)?")
 print(currency2 == "usd")
+
+
+
+'''Output:
+
+Is the city 'San Francsico'?
+True
+Is the city 'New York'?
+False
+
+Is the country 'usa'?
+True
+Is the country 'vietnam'?
+False
+
+Is the language 'english'?
+True
+Is the language 'vietnamese'?
+False
+The language is english but the return result will be false because using ENGLISH to test.
+False
+
+Is the holiday 'NEW YEAR' (upper case)?
+True
+Is the holiday 'new year' (lower case)?
+False
+
+Is the currency 'usd'?
+True
+Is the currency still 'usd' (u s d)?
+False
+
+Is the currency 'u s d' (space)?
+True
+Is the currency 'usd' (no space)?
+False
+
+'''
