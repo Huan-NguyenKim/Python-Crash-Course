@@ -158,3 +158,5 @@ if dish2 not in traditional_dishes:
     print("Sorry. Pizza is not a Vietnamese traditional dish.")
 else:
     print("It is a vietnamese traditional dish.")
+
+    s
