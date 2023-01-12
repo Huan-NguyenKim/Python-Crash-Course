@@ -159,4 +159,57 @@ if dish2 not in traditional_dishes:
 else:
     print("It is a vietnamese traditional dish.")
 
-    s
+    
+
+
+'''Output:
+
+Samsung has a new model right now. Do you want to buy one? (checking for equality)
+I love Samsung phones. I will buy one
+
+
+Are you hungry? But we don't have noodles right now (checking for inequality)
+I will wait for noodles later.
+
+Did i type 'HUAN'?
+True
+Did i type 'huan'?
+False
+HUAN
+
+Did i type 'nguyen'?
+False
+
+Did i enter 'NGUYEN'?
+True
+
+If the number is 1, return TRUE
+
+
+You entered a correct number. A year has 365 days.
+
+
+Your age is greater than 21. You can drive a car now.
+
+
+You don't have to report to IRS if you deposit less than 10,000 USD.
+
+
+You are considered a full time student if you have 12 or greater(more) units in a semester.
+
+
+If someone steals less than or equal to 950 dollars, he/she will be charged with a misdemeanor offense.
+
+
+You can drive a car and you can get a discount for your insurance because you are older than 25
+
+
+The meal price is reasonable
+
+
+Rice is a Vietnamese traditional dish.
+
+
+Sorry. Pizza is not a Vietnamese traditional dish.
+
+'''
