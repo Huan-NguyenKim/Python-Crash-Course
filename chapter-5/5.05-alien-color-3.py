@@ -47,3 +47,19 @@ elif alien_color3 == "yellow":
 else:
     print("No, the alien's color is red. You have earned 15 points. (Output from ELSE)")
 
+
+
+'''Output:
+
+Is the alien's color green? (1st program)
+Yes, the alien's color is green. You have just earned 5 points (Output from IF).
+
+
+Is the alien's color green? (2nd program)
+No, the alien's color is yellow. You have earned 10 points (Output from ELIF).
+
+
+Is the alien's color green? (3rd program)
+No, the alien's color is red. You have earned 15 points. (Output from ELSE)
+
+'''
