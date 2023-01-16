@@ -13,7 +13,7 @@ fails. (The version that fails will have no output.
 # a message that the player just earned 5 points.
 alien_color1 = "green"
 if alien_color1 == "green":
-    print("You have just earned 5 points!")
+    print("The alien is gree. You have just earned 5 points!")
 else:
     print("So sorry!")
 
@@ -22,3 +22,9 @@ else:
 alien_color2 = "red"
 if alien_color2 == "green":
     print("\nIs the alien's color green?")
+
+
+'''Output:
+
+The alien is green. You have just earned 5 points!
+'''
