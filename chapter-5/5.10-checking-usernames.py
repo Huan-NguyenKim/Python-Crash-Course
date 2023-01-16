@@ -42,3 +42,16 @@ for new_user in new_users:
 
 
 
+
+'''Output:
+
+Sorry Huy! The name is not available. Please choose another name
+Sorry Hoang! The name is not available. Please choose another name
+Great Dang! You can use this name.
+Great Truat! You can use this name.
+Great Thach! You can use this name.
+
+'''
+
+
+
