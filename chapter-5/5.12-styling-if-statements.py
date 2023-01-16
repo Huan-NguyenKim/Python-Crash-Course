@@ -25,3 +25,17 @@ for city in cities:
         print(f'{city.title()} is in California')
     else:
         print(f'So sorry! {city.title()} is not in California.')
+
+
+
+'''Output:
+
+Can i vote?
+Sorry! You cann't vote.
+
+
+What city is in California?
+San Francisco is in California
+So sorry! New York is not in California.
+
+'''
