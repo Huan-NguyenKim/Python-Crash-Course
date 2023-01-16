@@ -33,4 +33,23 @@ if "kiwi" in favorite_fruits:
 if "banana" not in favorite_fruits:
     print("\nSorry banana is not on the list.")
 
-print("\nDo you like fruits?")
+print("\nDo you like fruits? (Statement outside the loop)" )
+
+
+'''Output:
+
+I love apples!
+
+I love avocados!
+
+I love durians!
+
+I love cherries!
+
+I love kiwis!
+
+Sorry banana is not on the list.
+
+Do you like fruits? (Statement outside the loop)
+
+'''
