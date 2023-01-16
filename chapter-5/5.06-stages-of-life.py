@@ -53,3 +53,11 @@ elif age >= 65:
 # 7/ invalid age.
 else:
     print("You entered an invalid age. Please type again!")
+
+
+
+'''Output:
+
+You are an adult.
+
+'''
