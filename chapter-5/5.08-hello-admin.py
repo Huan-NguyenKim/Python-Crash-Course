@@ -32,4 +32,17 @@ for username in usernames:   #this will be used to return the names.
     
 
 
+
+
+'''Output:
+
+Hello Huy! Thank you for logging in!
+Hello Hoang! Thank you for logging in!
+Hello Liem! Thank you for logging in!
+Hello Toan! Thank you for logging in!
+Hello Admin! Would you like to see a report?
+
+'''
+
+
    
