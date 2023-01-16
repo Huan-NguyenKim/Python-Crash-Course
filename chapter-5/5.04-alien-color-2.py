@@ -33,3 +33,15 @@ if alien_color2 == "red":
     print("Yes")
 else:
     print("NO! The alien's color is green. You have earned 10 points (output from ELSE)")
+
+
+'''Output:
+
+Is the alien's color red?
+Yes, the alien's color is red. You have just earned 5 points (output from IF).
+
+
+Is the alien's color red?
+NO! The alien's color is green. You have earned 10 points (output from ELSE)
+
+'''
