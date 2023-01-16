@@ -29,3 +29,18 @@ for number in numbers:
         print (f"The number is {number}th.")
 
 
+
+'''Output:
+
+The number is 1st.
+The number is 2nd.
+The number is 3rd.
+The number is 4th.
+The number is 5th.
+The number is 6th.
+The number is 7th.
+The number is 8th.
+The number is 9th.
+'''
+
+
